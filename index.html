@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="text-center">To-Do application</h1>
+
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-8">
+                <input type="text" class="form-control" id="inputTask" placeholder="Input task">
+            </div>
+            <button class="btn btn-primary col-4" id="btn-add">Add task</button>
+
+        </div>
+
+        <div>
+            <div>Active tasks: <div id="num">0</div>
+            </div>
+            <div>Inactive tasks: <div id="non-num">0</div>
+            </div>
+        </div>
+
+        <ul class="row g-3" id="list"></ul>
+
+        <button class="btn btn-primary col-4" id="btn-save">Save task</button>
+        <button class="btn btn-primary col-4" id="btn-clear">Clear task</button>
+
+
+        <div id="btn-div">
+            <button class="btn btn-primary col-4" id="btn-fio">FIO</button>
+        </div>
+
+        <div id="hide">ФИО разработчика: xxxxxxx </div>
+    </div>
+
+    <script src="./App To Do.js"></script>
+</body>
+
+</html>

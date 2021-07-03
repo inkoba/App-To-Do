@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;
+}
+
+#btn-div{
+    margin-top: 100px;
+}
+span{
+    color: red;
+    cursor: pointer;
+   /*  border: 1px solid red; */
+}
+
+.boxLine{
+    text-decoration: line-through;
+}
+
+#hide{
+  display: none;
+  border: 1px solid red;
+  margin: 15px;
+  padding: 5px;
+}
+#num{display: inline;}
+#non-num{display: inline;}
+
+
